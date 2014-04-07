@@ -1,4 +1,4 @@
-  %% fisatseminar.cls
+  %% fisatproject.cls
   %% Copyright 2013 Jestin Joy
   %
   % This program may be distributed and/or modified under the
@@ -9,7 +9,7 @@
   % and version 1.2 or later is part of all distributions of LaTeX 
   % version 1999/12/01 or later.
   %
-  % This program consists of the file fisatseminar.cls
+  % This program consists of the file fisatproject.cls
 
 \ProvidesClass{mins}[2/8/2013]
 \NeedsTeXFormat{LaTeX2e}
@@ -91,10 +91,10 @@ Mookkannoor(P.O), Angamaly-683577
 \vspace{1.5cm}
  This is to certify that project report entitled ``\textbf{\stored@title}'' is a bonafide report of the project presented during $VI^{th}$ semester by \textbf{\stored@author}, in partial fulfillment of the requirements for the award of the degree of Bachelor of Technology (B.Tech) in Computer Science \& Engineering.\\[3cm]
 
-\begin{flushright}
-\textbf{Dr. Prasad J C}\\
-Head of the Department
-\end{flushright}
+\hfill \textbf{Dr. Prasad J C}\\
+Staff in Charge \hfill Head of the Department
+
+
 \vspace{1cm}
 %\textbf{Place}:\\
 %\textbf{Date}:
