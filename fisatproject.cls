@@ -38,6 +38,7 @@
 
 \def\title#1{\gdef\@title{#1}\gdef\stored@title{#1}}
 \def\author#1{\gdef\@author{#1}\gdef\stored@author{#1}}
+\def\team#1{\gdef\@team{#1}\gdef\stored@team{#1}}
 \def\guide#1{\gdef\@guide{#1}\gdef\stored@guide{#1}}
 
 \pagenumbering{gobble}
@@ -49,7 +50,7 @@
     {\LARGE \@title \par}%
     \vfill
 \vskip 1.5em%
-\textit{	A seminar report submitted in partial fulfillment of the requirements for\\[.2cm]
+\textit{A project report submitted in partial fulfillment of the requirements for\\[.2cm]
 	the award of the degree of}\\[1.5cm]
 	{\Large \bf \itshape{{Bachelor of Technology}}}\\[.5cm]
 \textit{in}\\[.5cm]
@@ -59,7 +60,7 @@
       \lineskip .5em%
       Submitted by\\[.2cm]
       \begin{tabular}[t]{c}%
-        \@author
+        \@team
       \end{tabular}\par}%
     \vskip 1em%
    % {\large \@date}%
