@@ -71,7 +71,7 @@
   \vfill
 
   \includegraphics[scale=.15]{fisat}\\[.5cm]
-  \large \bfseries{Federal Institute of Science And Technology (FISAT)}\\
+  \large \bfseries{Federal Institute of Science And Technology (FISAT)$^{{\mbox{\textregistered}}}$}\\
 \small \bfseries{Angamaly, Ernakulam}\\[.5cm]
 \small {\textit{Affiliated to}}\\[.5cm]
 \large \bfseries{APJ Abdul Kalam Technological University}\\
@@ -85,7 +85,7 @@
 \thispagestyle{plain}
 \vspace{2cm}
 \begin{center}
-{\large FEDERAL INSTITUTE OF SCIENCE AND TECHNOLOGY (FISAT)}\\
+{\large\textbf{ Federal Institute of Science And Technology (FISAT)}$^{{\mbox{\textregistered}}}$}\\
 Mookkannoor(P.O), Angamaly-683577
 \end{center}
 \begin{center}
@@ -94,7 +94,7 @@ Mookkannoor(P.O), Angamaly-683577
 \textbf{CERTIFICATE}
 \end{center}
 \vspace{1.5cm}
- This is to certify that project report entitled ``\textbf{\stored@title}'' is a bonafide report of the project presented during V$^{th}$ semester by \textbf{\stored@author}, in partial fulfillment of the requirements for the award of the degree of Bachelor of Technology (B.Tech) in Computer Science \& Engineering.\\[3cm]
+ This is to certify that report entitled ``\textbf{\stored@title}'' is a bonafide report of the design project (CS341 - Design Project) presented during V$^{th}$ semester by \textbf{\stored@author}, in partial fulfillment of the requirements for the award of the degree of Bachelor of Technology (B.Tech) in Computer Science \& Engineering.\\[3cm]
 
 \hfill \textbf{Dr. Prasad J C}\\
 Staff in Charge \hfill Head of the Department
