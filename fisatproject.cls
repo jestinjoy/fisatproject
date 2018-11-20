@@ -23,9 +23,9 @@
 
 \LoadClass[a4paper,12pt]{report}
 %[left=.5in,right=.5in,top=1in,bottom=1in]
-\RequirePackage[top=.7in,bottom=.5in]{geometry}
+\RequirePackage[top=.9in,bottom=.9in]{geometry}
 \RequirePackage{graphicx}
-\RequirePackage{url}
+\RequirePackage{url,fancyhdr}
 \RequirePackage{titlesec}
 \RequirePackage{listings}
 \RequirePackage[toc,page]{appendix}
@@ -45,8 +45,10 @@
 
 \def\@maketitle{%
   %\vskip 2em%
+\thispagestyle{plain}
   \vspace{2cm}
   \begin{center}%
+
     {\LARGE \@title \par}%
     \vfill
 \vskip 1.5em%
@@ -64,21 +66,23 @@
       \end{tabular}\par}%
     \vskip 1em%
    % {\large \@date}%
-   \thispagestyle{empty}
+  \thispagestyle{empty}
   \par
   \vfill
+
   \includegraphics[scale=.15]{fisat}\\[.5cm]
-  \large \bfseries{FEDERAL INSTITUTE OF SCIENCE AND TECHNOLOGY (FISAT)}\\
-  \small \bfseries{ANGAMALY-683577}\\[.5cm]
-  \small {\textit{Affiliated to}}\\[.5cm]
-  \large \bfseries{MAHATMA GANDHI UNIVERSITY}\\
-  \small \bfseries{Kottayam-686560}\\
-  \end{center}
+  \large \bfseries{Federal Institute of Science And Technology (FISAT)}\\
+\small \bfseries{Angamaly, Ernakulam}\\[.5cm]
+\small {\textit{Affiliated to}}\\[.5cm]
+\large \bfseries{APJ Abdul Kalam Technological University}\\
+\small \bfseries{CET Campus, Thiruvananthapuram}\\
+\end{center}
   }
 
 
 \newcommand{\makecert}{
 \newpage
+\thispagestyle{plain}
 \vspace{2cm}
 \begin{center}
 {\large FEDERAL INSTITUTE OF SCIENCE AND TECHNOLOGY (FISAT)}\\
@@ -90,7 +94,7 @@ Mookkannoor(P.O), Angamaly-683577
 \textbf{CERTIFICATE}
 \end{center}
 \vspace{1.5cm}
- This is to certify that project report entitled ``\textbf{\stored@title}'' is a bonafide report of the project presented during $VI^{th}$ semester by \textbf{\stored@author}, in partial fulfillment of the requirements for the award of the degree of Bachelor of Technology (B.Tech) in Computer Science \& Engineering.\\[3cm]
+ This is to certify that project report entitled ``\textbf{\stored@title}'' is a bonafide report of the project presented during V$^{th}$ semester by \textbf{\stored@author}, in partial fulfillment of the requirements for the award of the degree of Bachelor of Technology (B.Tech) in Computer Science \& Engineering.\\[3cm]
 
 \hfill \textbf{Dr. Prasad J C}\\
 Staff in Charge \hfill Head of the Department
@@ -100,5 +104,11 @@ Staff in Charge \hfill Head of the Department
 %\textbf{Place}:\\
 %\textbf{Date}:
 \vfill
-External Examiner \hfill Internal Examiner
+%External Examiner \hfill Internal Examiner
 }
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\stored@title}
+\lfoot{ Computer Science \& Engineering | FISAT}
+\rfoot{\thepage}
