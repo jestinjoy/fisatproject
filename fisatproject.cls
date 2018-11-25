@@ -45,7 +45,7 @@
 
 \def\@maketitle{%
   %\vskip 2em%
-\thispagestyle{plain}
+\pagestyle{empty}
   \vspace{2cm}
   \begin{center}%
 
@@ -82,7 +82,7 @@
 
 \newcommand{\makecert}{
 \newpage
-\thispagestyle{plain}
+\pagestyle{empty}
 \vspace{2cm}
 \begin{center}
 {\large\textbf{ Federal Institute of Science And Technology (FISAT)}$^{{\mbox{\textregistered}}}$}\\
@@ -97,7 +97,7 @@ Mookkannoor(P.O), Angamaly-683577
  This is to certify that report entitled ``\textbf{\stored@title}'' is a bonafide report of the design project (CS341 - Design Project) presented during V$^{th}$ semester by \textbf{\stored@author}, in partial fulfillment of the requirements for the award of the degree of Bachelor of Technology (B.Tech) in Computer Science \& Engineering.\\[3cm]
 
 \hfill \textbf{Dr. Prasad J C}\\
-Staff in Charge \hfill Head of the Department
+Staff in Charge \hfill Project in Charge \hfill Head of the Department
 
 
 \vspace{1cm}
@@ -112,3 +112,4 @@ Staff in Charge \hfill Head of the Department
 \lhead{\stored@title}
 \lfoot{ Computer Science \& Engineering | FISAT}
 \rfoot{\thepage}
+\renewcommand{\footrulewidth}{0.4pt}
